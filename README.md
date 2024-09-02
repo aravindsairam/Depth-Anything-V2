@@ -1,6 +1,35 @@
 <div align="center">
 <h1>Depth Anything V2</h1>
 
+</div>
+Thanks to the authors for this amazing models. 
+
+I have compared the depth anything V2 small model with realsense D455 Depth camera. The results are very interesting. The models seems to do a better do and also have a far depth esitmation compared to the realsense 
+ideal range of 0.6m to 6m. 
+
+### Here are some results
+<div align="center">
+
+![](assets/gifs/empty_hand.gif)
+
+![](assets/gifs/bottle.gif)
+
+![](assets/gifs/phone.gif)
+
+</div>
+
+### To Run
+
+Please make sure to install [Realsense Python Wrapper](https://github.com/IntelRealSense/librealsense/blob/master/wrappers/python/readme.md)
+
+```
+python3 run_cam_rsd.py
+```
+
+<div align="center">
+
+### From the original repo 
+
 [**Lihe Yang**](https://liheyoung.github.io/)<sup>1</sup> · [**Bingyi Kang**](https://bingykang.github.io/)<sup>2&dagger;</sup> · [**Zilong Huang**](http://speedinghzl.github.io/)<sup>2</sup>
 <br>
 [**Zhen Zhao**](http://zhaozhen.me/) · [**Xiaogang Xu**](https://xiaogang00.github.io/) · [**Jiashi Feng**](https://sites.google.com/site/jshfeng/)<sup>2</sup> · [**Hengshuang Zhao**](https://hszhao.github.io/)<sup>1*</sup>
